@@ -1,14 +1,12 @@
 {
-  "name": "excel-project",
+  "name": "excel-course",
   "version": "1.0.0",
-  "description": "Pure JavaScript excel application",
+  "description": "Pure JavaScript Excel Application",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",
-    "build": "cross-env NODE_ENV=production webpack --mode production",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -21,33 +19,34 @@
   ],
   "author": "Vlad Balabkin <foxyfo1703@gmail.com>",
   "license": "ISC",
-  "browserslist": "> 0.25%, not dead",
   "bugs": {
     "url": "https://github.com/FOXY-FO/excel/issues"
   },
   "homepage": "https://github.com/FOXY-FO/excel#readme",
   "private": true,
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^6.2.1",
-    "cross-env": "^7.0.2",
-    "css-loader": "^4.3.0",
-    "eslint": "^7.11.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^7.0.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-loader": "^4.0.2",
-    "html-webpack-plugin": "^4.5.0",
-    "mini-css-extract-plugin": "^1.0.0",
-    "sass": "^1.27.0",
-    "sass-loader": "^10.0.3",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "eslint-loader": "^3.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.11.5"
+    "@babel/polyfill": "^7.8.3",
+    "normalize.css": "^8.0.1"
   }
 }
