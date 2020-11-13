@@ -12,6 +12,7 @@
     "rules": {
         "semi": [2, "never"],
         "arrow-parens": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "operator-linebreak": "off"
     }
 }
